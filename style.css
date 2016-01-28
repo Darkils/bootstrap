@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background: url('http://wallsev.com/wp-content/uploads/2014/01/grey-wall-full-hd-by-lars-fredriksson-black-1259964.jpg') no-repeat;
+  background-attachment: fixed;
+}
+
+
+ .navigation a:hover {
+   background-color: black;
+ }
+
+.navigation {
+  font-style: italic;
+font-size: 25px;
+color: white;
+font-weight: bold;
+-webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+  z-index: 1;
+}
+
+.navigation:hover{
+  webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.navigation a{
+  text-decoration: none;
+  color:white;
+}
+
+
+.nomprenom {
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.nom {
+  margin-right: 45px;
+  font-size: 20px;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+ }
+
+ .nomprenom li {
+   display: inline;
+ }
+
+.tableaucomp {
+  margin-right:250px;
+  margin-left:250px;
+  height: 450px;
+}
+.tableaucomp1 {
+height: 100%;
+margin-left: 1px;
+background-color:white;
+width: 49%;
+float: left;
+color:black;
+border: 2px solid black;
+font-size:20px;
+font-weight: bold;
+font-style: italic;
+-webkit-transition:all 0.5s ease-out;
+-moz-transition:all 0.5s ease-out;
+-ms-transition:all 0.5s ease-out;
+-o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+.tableaucomp1:hover {
+  -moz-transform:scale(1.3);
+  -webkit-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
+}
+
+.contacts {
+color:white;
+margin-top: 10%;
+font-weight: bold;
+font-size: 25px;
+}
+
+
+
+
+
+.fa-facebook-square{
+position: absolute;
+margin-left: 180px;
+margin-top: -110px;
+font-size: 70px !important;
+}
+
+.logo {
+  font-weight: bold;
+  margin-right:30%;
+}
+
+
+
+.experiences{
+  margin-right: 45px;
+  font-size: 20px;
+  margin-top: 40px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20%;
+}
